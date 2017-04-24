@@ -52,5 +52,5 @@ production:
   encoding: unicode
   pool: 5
   database: message-board_production
-  username: message-board
+  username: root
   password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
